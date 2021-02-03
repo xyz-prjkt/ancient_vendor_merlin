@@ -16,3 +16,7 @@
 
 PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/merlin
+
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/merlin/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
+    vendor/xiaomi/merlin/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so
