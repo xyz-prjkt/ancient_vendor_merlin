@@ -20,4 +20,8 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlin/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
     vendor/xiaomi/merlin/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
-    vendor/xiaomi/merlin/proprietary/etc/init/android.hardware.keymaster@4.0-service.beanpod.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/android.hardware.keymaster@4.0-service.beanpod.rc
+    vendor/xiaomi/merlin/proprietary/etc/init/android.hardware.keymaster@4.0-service.beanpod.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/android.hardware.keymaster@4.0-service.beanpod.rc \
+    vendor/xiaomi/merlin/proprietary/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM)/bin/kpoc_charger \
+    vendor/xiaomi/merlin/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
+    vendor/xiaomi/merlin/proprietary/lib/libshowlogo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libshowlogo.so
+
